@@ -7,7 +7,7 @@
 **Turn your Last.fm listening history into desktop wallpapers.**
 Free, for Windows 10 and 11. Use your public Last.fm profile. No password required.
 
-[Download 1.4](https://github.com/nachodorche/scrobblewall/releases/latest) ·
+[Download 1.4](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
 [Español](https://scrobblewall.com/es/)
@@ -69,7 +69,7 @@ Collages, word clouds and top tracks cover the last week, month, three months, s
 
 ## Getting started
 
-1. [Download the normal or portable ZIP](https://github.com/nachodorche/scrobblewall/releases/latest) and unzip it.
+1. [Download the normal or portable ZIP](https://github.com/ijlsadleir/scrobblewall/releases/latest) and unzip it.
 2. Run `ScrobbleWall.exe`.
 3. Type your Last.fm username — the one in `last.fm/user/YOUR_NAME`.
 4. Tick what you want in the rotation and close the window.
