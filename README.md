@@ -7,7 +7,7 @@
 **Turn your Last.fm listening history into desktop wallpapers.**
 Free, for Windows 10 and 11. Use your public Last.fm profile. No password required.
 
-[Download 1.4](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Download 1.4.1](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
 [Español](https://scrobblewall.com/es/)
