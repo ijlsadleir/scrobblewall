@@ -20,6 +20,10 @@ Free, for Windows 10 and 11. Use your public Last.fm profile. No password requir
 
 <br>
 
+## New in 1.4.4 — 23 September 2026
+
+Improved spark controls and reach, a faster font picker with true font previews, named font combinations, softer Aura defaults and a fix for the Microsoft Store tray icon at sign-in. [Full release notes](https://scrobblewall.com/whats-new/).
+
 ## What it is
 
 Most tools in this space make you a grid of your top albums, once, and then
