@@ -7,7 +7,8 @@
 **Turn your Last.fm listening history into desktop wallpapers.**
 Free, for Windows 10 and 11. Use your public Last.fm profile. No password required.
 
-[Download 1.4.4](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Download 1.5](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Microsoft Store](https://apps.microsoft.com/detail/9nbkk63368tk) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
 [Español](https://scrobblewall.com/es/)
@@ -20,9 +21,11 @@ Free, for Windows 10 and 11. Use your public Last.fm profile. No password requir
 
 <br>
 
-## New in 1.4.4 — 23 September 2026
+## New in 1.5 — 11 October 2026
 
-Improved spark controls and reach, a faster font picker with true font previews, named font combinations, softer Aura defaults and a fix for the Microsoft Store tray icon at sign-in. [Full release notes](https://scrobblewall.com/whats-new/).
+A completely new window; what's playing from any Windows player, instantly — even without a Last.fm account; a free wallpaper maker in your browser ([scrobblewall.com/make](https://scrobblewall.com/make/)); and a now-playing wallpaper for Wallpaper Engine and Lively. [Full release notes](https://scrobblewall.com/whats-new/).
+
+<img src="https://scrobblewall.com/img/app-en.jpg" alt="The ScrobbleWall 1.5 window">
 
 ## What it is
 
