@@ -21,7 +21,7 @@ Free, for Windows 10 and 11. Use your public Last.fm profile. No password requir
 
 <br>
 
-## New in 1.5 — 11 October 2026
+## New in 1.5 — 11 October 2026 (1.5.1: 12 October)
 
 A completely new window; what's playing from any Windows player, instantly — even without a Last.fm account; a free wallpaper maker in your browser ([scrobblewall.com/make](https://scrobblewall.com/make/)); and a now-playing wallpaper for Wallpaper Engine and Lively. [Full release notes](https://scrobblewall.com/whats-new/).
 
