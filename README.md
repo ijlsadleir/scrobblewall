@@ -4,10 +4,10 @@
 
 # ScrobbleWall
 
-**Turn your Last.fm listening history into desktop wallpapers.**
-Free, for Windows 10 and 11. Use your public Last.fm profile. No password required.
+**Turn your listening history into desktop wallpapers — from Spotify, Last.fm or any Windows player.**
+Free, for Windows 10 and 11. No account required: it can keep the history on your own PC.
 
-[Download 1.5.2](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Download 1.6](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
 [Microsoft Store](https://apps.microsoft.com/detail/9nbkk63368tk) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
@@ -20,6 +20,18 @@ Free, for Windows 10 and 11. Use your public Last.fm profile. No password requir
 <img src="https://scrobblewall.com/img/hero.jpg" alt="A desktop wallpaper showing an album cover on the right and the artist name on the left">
 
 <br>
+
+## New in 1.6 — 7 November 2026
+
+**No Last.fm account needed anymore.** ScrobbleWall can now keep your listening
+history on your own PC: every track that plays in Spotify, Apple Music,
+YouTube Music or any player in the Windows media controls is saved locally
+(same rule as Last.fm: 30 seconds and half the track, or four minutes), and
+every wallpaper type is built from it. You can also **import your Spotify
+history** — the ZIP Spotify sends from its privacy page — and have years of
+history on day one, or bring your whole Last.fm history to the PC.
+Nothing is sent anywhere. [Release notes](https://github.com/ijlsadleir/scrobblewall/releases/tag/v1.6.0) ·
+[Spotify wallpaper guide](https://scrobblewall.com/spotify-wallpaper/).
 
 ## 1.5.2 — 16 October 2026
 
@@ -34,9 +46,11 @@ A completely new window; what's playing from any Windows player, instantly — e
 ## What it is
 
 Most tools in this space make you a grid of your top albums, once, and then
-you set it as your wallpaper by hand. ScrobbleWall reads your Last.fm profile
-and **draws wallpapers itself**, at your screen's resolution, then keeps
-rotating them on a timer. You type a username and close the window.
+you set it as your wallpaper by hand. ScrobbleWall reads your listening
+history — your Last.fm profile, or the history it keeps on your PC from Spotify
+or any Windows player — and **draws wallpapers itself**, at your screen's
+resolution, then keeps rotating them on a timer. You pick a source and close
+the window.
 
 ScrobbleWall builds each wallpaper from your listening history. You can add an animated backdrop, including your own video. For interactive web backgrounds and other wallpaper types, see the [comparison with Lively Wallpaper](https://scrobblewall.com/vs-lively-wallpaper/).
 
@@ -82,15 +96,20 @@ Collages, word clouds and top tracks cover the last week, month, three months, s
 
 1. [Download the normal or portable ZIP](https://github.com/ijlsadleir/scrobblewall/releases/latest) and unzip it.
 2. Run `ScrobbleWall.exe`.
-3. Type your Last.fm username — the one in `last.fm/user/YOUR_NAME`.
+3. Type your Last.fm username — the one in `last.fm/user/YOUR_NAME` — or
+   choose **Use this PC's history** to go without an account.
 4. Tick what you want in the rotation and close the window.
 
-No password and no API key: your listening history is already public on your
-Last.fm profile, so reading it needs nothing else. There is no login screen
-anywhere in the app.
+No password and no API key. With Last.fm, your history is already public on
+your profile. Without it, ScrobbleWall keeps track of what plays on the PC, and
+wallpapers unlock as plays add up.
 
-Using Spotify? Connect it to Last.fm and everything you play gets recorded
-there. Spotify also works as a direct source, with fewer wallpaper types.
+Using Spotify? Use this PC's history, then request your *Extended streaming
+history* on Spotify's privacy page and import the ZIP in Settings → This PC's
+history → Import Spotify history. The import does not use the Spotify API
+and never asks for your Spotify password. (An optional Spotify sign-in with your
+own Client ID is still there for those who prefer it.) What you play on your phone is not
+on the PC: for that, Last.fm, or import Spotify's file again now and then.
 
 ## Questions
 
@@ -121,9 +140,10 @@ good.
 <details>
 <summary><b>Does it collect anything?</b></summary>
 
-No telemetry, no analytics, no account. It talks to Last.fm to read your
-public history, to cover art sources to fetch album art, and to Open-Meteo
-only if you turn the weather on. [Privacy page.](https://scrobblewall.com/privacy/)
+No telemetry, no analytics, no account. The history it keeps on your PC
+stays on your PC. It talks to Last.fm to read your public history (or public
+album and tag data), to cover art sources to fetch album art, and to
+Open-Meteo only if you turn the weather on. [Privacy page.](https://scrobblewall.com/privacy/)
 </details>
 
 ## Bugs and ideas
@@ -135,6 +155,6 @@ it is useful to say which type and which period. You can also write to
 ---
 
 <sub>ScrobbleWall is an independent project. It is not affiliated with,
-endorsed by, or connected to Last.fm or CBS Interactive. Album art belongs to
+endorsed by, or connected to Last.fm, CBS Interactive or Spotify. Album art belongs to
 its respective owners.
 <a href="https://www.last.fm/">Powered by AudioScrobbler</a>.</sub>
