@@ -7,7 +7,7 @@
 **Turn your listening history into desktop wallpapers — from Spotify, Last.fm or any Windows player.**
 Free, for Windows 10 and 11. No account required: it can keep the history on your own PC.
 
-[Download 1.6](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Download 1.6.1](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
 [Microsoft Store](https://apps.microsoft.com/detail/9nbkk63368tk) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
@@ -20,6 +20,15 @@ Free, for Windows 10 and 11. No account required: it can keep the history on you
 <img src="https://scrobblewall.com/img/hero.jpg" alt="A desktop wallpaper showing an album cover on the right and the artist name on the left">
 
 <br>
+
+## New in 1.6.1 — 7 November 2026
+
+**Connect Spotify.** One button: ScrobbleWall reads the recent plays the Spotify
+desktop app keeps on your PC (usually a few weeks), so your wallpapers are ready
+on day one — no Spotify sign-in, no password. It then walks you through asking
+Spotify for your whole history and adds the ZIP on its own when you download it.
+Share now also makes a vertical story (1080×1920) and a square post (1080×1080).
+[Release notes](https://github.com/ijlsadleir/scrobblewall/releases/tag/v1.6.1).
 
 ## New in 1.6 — 7 November 2026
 
@@ -96,17 +105,18 @@ Collages, word clouds and top tracks cover the last week, month, three months, s
 
 1. [Download the normal or portable ZIP](https://github.com/ijlsadleir/scrobblewall/releases/latest) and unzip it.
 2. Run `ScrobbleWall.exe`.
-3. Type your Last.fm username — the one in `last.fm/user/YOUR_NAME` — or
-   choose **Use this PC's history** to go without an account.
+3. Click **Connect Spotify**, type your Last.fm username — the one in
+   `last.fm/user/YOUR_NAME` — or choose **Use this PC's history** to go without an account.
 4. Tick what you want in the rotation and close the window.
 
 No password and no API key. With Last.fm, your history is already public on
 your profile. Without it, ScrobbleWall keeps track of what plays on the PC, and
 wallpapers unlock as plays add up.
 
-Using Spotify? Use this PC's history, then request your *Extended streaming
-history* on Spotify's privacy page and import the ZIP in Settings → This PC's
-history → Import Spotify history. The import does not use the Spotify API
+Using Spotify? Click **Connect Spotify** (on the welcome screen or in Settings →
+This PC's history): it brings in the recent plays the Spotify app keeps on the PC
+and guides you through requesting your whole history from Spotify, which it adds
+on its own once you download it. It does not use the Spotify API
 and never asks for your Spotify password. (An optional Spotify sign-in with your
 own Client ID is still there for those who prefer it.) What you play on your phone is not
 on the PC: for that, Last.fm, or import Spotify's file again now and then.
