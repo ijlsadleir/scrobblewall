@@ -7,7 +7,7 @@
 **Turn your listening history into desktop wallpapers — from Spotify, Last.fm or any Windows player.**
 Free, for Windows 10 and 11. No account required: it can keep the history on your own PC.
 
-[Download 1.6.1](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Download 1.6.2](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
 [Microsoft Store](https://apps.microsoft.com/detail/9nbkk63368tk) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
@@ -20,6 +20,17 @@ Free, for Windows 10 and 11. No account required: it can keep the history on you
 <img src="https://scrobblewall.com/img/hero.jpg" alt="A desktop wallpaper showing an album cover on the right and the artist name on the left">
 
 <br>
+
+## New in 1.6.2 — 15 November 2026
+
+**What 1.6.1 promised now really works.** With Spotify connected, new plays are
+added every half hour and the history ZIP from Spotify's email is imported on its
+own. With no previous history, your top song and the small collages unlock after
+5 plays. Settings shows the last play saved on your PC and warns you if recording
+stopped. "Screen 2" means the same screen everywhere (clock, now playing, animated
+wallpaper), and Japanese, Chinese, Korean, Thai, Hindi, Hebrew and Arabic names
+render correctly.
+[Release notes](https://github.com/ijlsadleir/scrobblewall/releases/tag/v1.6.2).
 
 ## New in 1.6.1 — 7 November 2026
 
