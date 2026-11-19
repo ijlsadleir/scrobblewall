@@ -7,7 +7,7 @@
 **Turn your listening history into desktop wallpapers — from Spotify, Last.fm or any Windows player.**
 Free, for Windows 10 and 11. No account required: it can keep the history on your own PC.
 
-[Download 1.6.3](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
+[Download 1.6.4](https://github.com/ijlsadleir/scrobblewall/releases/latest) ·
 [Microsoft Store](https://apps.microsoft.com/detail/9nbkk63368tk) ·
 [Website](https://scrobblewall.com/) ·
 [What's new](https://scrobblewall.com/whats-new/) ·
@@ -20,6 +20,18 @@ Free, for Windows 10 and 11. No account required: it can keep the history on you
 <img src="https://scrobblewall.com/img/hero.jpg" alt="A desktop wallpaper showing an album cover on the right and the artist name on the left">
 
 <br>
+
+## New in 1.6.4 — 19 November 2026
+
+**Two new wallpapers with a Last.fm account.** *Loved tracks*: the last songs you
+loved on Last.fm, cover by cover, with the band and the song. *What your friends
+are listening to*: your Last.fm friends, whoever is playing something right now
+first, refreshed every 10 minutes. Both are off by default; turn them on under
+Wallpapers. **Ready for 1 December**, when Last.fm starts requiring Last.fm Pro
+for API keys: ScrobbleWall's key is covered, so you need neither Pro nor a key of
+your own. If Last.fm ever rejected it, the app says so clearly and keeps drawing
+from this PC's history.
+[Release notes](https://github.com/ijlsadleir/scrobblewall/releases/tag/v1.6.4).
 
 ## New in 1.6.3 — 16 November 2026
 
@@ -84,7 +96,7 @@ the window.
 
 ScrobbleWall builds each wallpaper from your listening history. You can add an animated backdrop, including your own video. For interactive web backgrounds and other wallpaper types, see the [comparison with Lively Wallpaper](https://scrobblewall.com/vs-lively-wallpaper/).
 
-## Twelve kinds of wallpaper
+## Fourteen kinds of wallpaper
 
 A listening history holds more than a ranking, so the rotation is not one
 picture that updates:
@@ -103,6 +115,8 @@ picture that updates:
 | **Forgotten album** | Something you played to death once and have not touched in years |
 | **Forgotten track** | The same, by song |
 | **On repeat** | What you played most times in a single day |
+| **Loved tracks** | Your latest loved tracks on Last.fm (needs a Last.fm account) |
+| **Friends listening** | What your Last.fm friends are playing right now (needs a Last.fm account) |
 
 Collages, word clouds and top tracks cover the last week, month, three months, six months, year or your full history. Discovery and forgotten-music designs use their own time ranges.
 
